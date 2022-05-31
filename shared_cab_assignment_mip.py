@@ -84,14 +84,14 @@ def calulate_cost():
 
     # current riders cab requests with properties
     riders_list = [
-        {0: 'rider0', 'properties': {'source': '27.2046,77.4977',
-                                        'destination': '26.196930, 50.477644', 'distance': 10, 'route': 0}},
-        {1: 'rider1', 'properties': {'source': '27.2046,77.4977',
-                                        'destination': '26.196930, 50.477644', 'distance': 11, 'route': 0}},
-        {2: 'rider2', 'properties': {'source': '27.2046,77.4977',
-                                        'destination': '26.196930, 50.477644', 'distance': 5, 'route': 0}},
-        {3: 'rider3', 'properties': {'source': '27.2046,77.4977',
-                                        'destination': '26.196930, 50.477644', 'distance': 6, 'route': 0}},
+        {0: 'rider0', 'properties': {'source': '27.2046,78.01',
+                                        'destination': '28.196930, 50.477644', 'distance': 10, 'route': 0}},
+        {1: 'rider1', 'properties': {'source': '28.48,77.23',
+                                        'destination': '26.196930, 51.5621', 'distance': 11, 'route': 0}},
+        {2: 'rider2', 'properties': {'source': '27.67,73.45',
+                                        'destination': '26.9873, 52.3267', 'distance': 5, 'route': 0}},
+        {3: 'rider3', 'properties': {'source': '24.04,75.43',
+                                        'destination': '26.5431, 51.644', 'distance': 6, 'route': 0}},
     ]
 
     # de-tour distance from cab to rider in KM
